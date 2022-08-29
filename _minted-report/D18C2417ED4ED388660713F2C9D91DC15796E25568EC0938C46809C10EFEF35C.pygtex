@@ -1,0 +1,61 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.252 Leader gone.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.255 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.260 I\PYGZsq{}m the prospective leader.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.260 Phase 1: discovery (leader)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.260 Waiting for quorum...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.267 Wait FOLLOWERINFO...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.326 FOLLOWERINFO received from c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.328 Waiting for quorum...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.329 Quorum ok.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.333 Send NEWEPOCH to c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.343 Wait ACKEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.532 ACKEPOCH received from c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.533 Phase 2: synchronization (leader)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.542 Send NEWLEADER to c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.618 Wait ACKNEWLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.758 ACKNEWLEADER received from c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.759 Send COMMITLEADER to c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.820 Phase 3: broadcast (leader)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.821 Wait Message...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.309 FOLLOWERINFO received from c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.309 Send NEWEPOCH to c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.443 Send NEWLEADER to c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.705 ACKNEWLEADER received from c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.705 Send COMMITLEADER to c\PYGZus{}0000000005}
+
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.252 Leader gone.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.257 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.261 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.261 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.261 Send FOLLOWERINFO to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.303 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.366 NEWEPOCH received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.369 Send ACKEPOCH to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.481 Phase 2: synchronization (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.482 Wait NEWLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.642 NEWLEADER received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.642 Send ACKNEWLEADER to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.722 Wait COMMITLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.876 COMMITLEADER received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.876 Phase 3: broadcast (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.876 Wait TRANSACTION...}
+
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.252 Leader gone.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.254 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.258 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.258 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.259 Send FOLLOWERINFO to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:15.281 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.259 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.262 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.262 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.262 Send FOLLOWERINFO to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.300 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.560 NEWLEADER received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.560 Send ACKNEWLEADER to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.679 Wait COMMITLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.823 COMMITLEADER received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.823 Phase 3: broadcast (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:06:25.824 Wait TRANSACTION...}
+\end{Verbatim}

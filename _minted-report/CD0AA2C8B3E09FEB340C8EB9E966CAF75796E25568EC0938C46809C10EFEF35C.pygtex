@@ -1,0 +1,69 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.588 Creating new peer.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.644 Create node on zookeeper...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.683 Hello, I\PYGZsq{}m c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.745 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.751 I\PYGZsq{}m the prospective leader.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.752 Phase 3: broadcast (leader)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:47.754 Wait Message...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.700 FOLLOWERINFO received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.702 Send NEWEPOCH to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.826 Send NEWLEADER to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.973 ACKNEWLEADER received from c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.975 Send COMMITLEADER to c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.910 FOLLOWERINFO received from c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.910 Send NEWEPOCH to c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.047 Send NEWLEADER to c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.223 ACKNEWLEADER received from c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.224 Send COMMITLEADER to c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.706 FOLLOWERINFO received from c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.706 Send NEWEPOCH to c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.866 Send NEWLEADER to c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.052 ACKNEWLEADER received from c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.053 Send COMMITLEADER to c\PYGZus{}0000000006}
+
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.225 Creating new peer.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.288 Create node on zookeeper...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.348 Hello, I\PYGZsq{}m c\PYGZus{}0000000004}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.438 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.445 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.447 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.452 Send FOLLOWERINFO to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.553 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.885 NEWLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.887 Send ACKNEWLEADER to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:54.941 Wait COMMITLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:55.033 COMMITLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:55.033 Phase 3: broadcast (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:55.033 Wait TRANSACTION...}
+
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.170 Creating new peer.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.289 Create node on zookeeper...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.507 Hello, I\PYGZsq{}m c\PYGZus{}0000000005}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.622 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.642 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.648 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.660 Send FOLLOWERINFO to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:08.879 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.116 NEWLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.119 Send ACKNEWLEADER to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.186 Wait COMMITLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.299 COMMITLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.299 Phase 3: broadcast (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.300 Wait TRANSACTION...}
+
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:09.896 Creating new peer.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.121 Create node on zookeeper...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.202 Hello, I\PYGZsq{}m c\PYGZus{}0000000006}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.384 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.407 I\PYGZsq{}m a follower.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.409 Phase 1: discovery (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.421 Send FOLLOWERINFO to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.653 Wait NEWEPOCH...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.969 NEWLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:10.972 Send ACKNEWLEADER to c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.013 Wait COMMITLEADER...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.127 COMMITLEADER received from c\PYGZus{}0000000003}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.127 Phase 3: broadcast (follower)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:05:11.127 Wait TRANSACTION...}
+\end{Verbatim}

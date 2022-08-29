@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:07.886 Creating new peer.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:07.948 First peer connected.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:07.990 Create node on zookeeper...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:07.999 Hello, I\PYGZsq{}m c\PYGZus{}0000000002}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:08.067 Elect leader...}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:08.076 I\PYGZsq{}m the prospective leader.}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:08.078 Phase 3: broadcast (leader)}
+\PYG{g+go}{2021\PYGZhy{}04\PYGZhy{}08 23:04:08.079 Wait Message...}
+\end{Verbatim}
